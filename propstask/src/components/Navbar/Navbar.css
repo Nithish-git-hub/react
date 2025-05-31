@@ -24,7 +24,8 @@
 
 @media screen and (max-width: 426px) {
   .alldata {
-    flex-direction: column; /* Stack vertically */
+    flex-direction: column;
+    width: 120vw; /* Stack vertically */
   }
 
   .navbar {
