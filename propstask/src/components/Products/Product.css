@@ -1,0 +1,38 @@
+/* .singleproduct>img{
+    height: 40vh;
+}
+.singleproduct{
+    border: 2px solid black;
+    margin-bottom: 2%;
+    
+} */
+
+.allproduct {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+  gap: 20px;
+  justify-content: center;
+  
+}
+
+.singleproduct {
+  border: 2px solid black;
+  width: 300px;
+  text-align: center;
+  /* padding: 10px; */
+  height: 25rem;
+  border-radius: 10px;
+}
+
+.singleproduct > img {
+  height: 30vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 426px){
+  .allproduct {
+    margin-left: 40px;
+  }
+}
+
