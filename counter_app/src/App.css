@@ -1,0 +1,53 @@
+.allbtns{
+  text-align: center;
+}
+.allbtns>h2{
+  margin-bottom: 8rem;
+}
+.allbtns>.child>button{
+  padding: 13px 50px;
+  margin: 40px;
+  background-color:bisque;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.allbtns>.child>span{
+  font-size: 30px;
+}
+.allbtns>.child>p>button{
+  padding: 10px 50px;
+  border: none;
+  background-color: red;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+  .allbtns > h2 {
+    margin-bottom: 4rem;
+    font-size: 1.5rem;
+  }
+
+  .allbtns > .child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .allbtns > .child > button,
+  .allbtns > .child > p > button {
+    padding: 12px 30px;
+    margin: 20px 0;
+    width: 60%;
+    font-size: 1rem;
+  }
+.allbtns > .child > p > button{
+  width: 80%;
+}
+  .allbtns > .child > span {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+}
