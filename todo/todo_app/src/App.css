@@ -1,0 +1,47 @@
+#con{
+  margin-left: 30rem;
+  background-color: bisque;
+  padding: 50px;
+  border-radius: 15px;
+}
+#con>button{
+  background-color: rgb(247, 152, 152);
+  margin-left: 10px
+}
+#con>button:hover{
+  background-color: rgb(79, 156, 238);
+}
+
+#con>ul>li>button{
+   background-color: rgb(247, 152, 152);
+  margin-left: 10px
+}
+#con>ul>li>button:hover{
+   background-color: rgb(229, 28, 28);
+  margin-left: 10px
+}
+#con>ul>li{
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+
+  #con{
+  margin-left: 0.1rem;
+  background-color: bisque;
+  padding: 30px;
+  border-radius: 10px;
+}
+#con>button{
+  background-color: rgb(247, 152, 152);
+  margin-left: 0.5px
+}
+#con>ul>li>button{
+   background-color: rgb(247, 152, 152);
+  margin-left: 1px
+}
+  
+#con>ul>li{
+  margin-bottom: 5px;
+}
+}
